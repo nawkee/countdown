@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('img/bg1.jpg') no-repeat center top/cover;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1 {
+    font-family: 'Patrick Hand', sans-serif;
+    font-size: 10rem;
+}
+
+.countdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0.2rem;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 2rem;
+}
+
+.days, .hours, .minutes, .seconds {
+    min-width: 140px;
+}
+
+.time div {
+    font-size: 5rem;
+}
+
+.time h4 {
+    font-size: 1rem;
+}
